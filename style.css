@@ -1,4 +1,9 @@
 header {
-    color: blue;
+    color:white;
     font-style: serif,sans-serif,arial;
 }
+
+* {
+    background-color:rgb(53, 186, 252);
+}
+
