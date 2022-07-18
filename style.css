@@ -1,9 +1,59 @@
-header {
-    color:white;
-    font-style: serif,sans-serif,arial;
-}
+/*General Styles*/
 
 * {
     background-color:rgb(53, 186, 252);
+    box-sizing: border-box;
 }
 
+/*Header*/
+
+header {
+    color:white;
+    display:flexbox;
+    text-align: ;
+    font-style: serif,sans-serif,arial;
+    margin:50px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    background-color: aqua;
+}
+header nav ul li {
+    display: flex;
+    flex-direction: row;
+    color:white;
+ 
+}
+
+/*Main*/
+
+.container {
+    max-width: 960px;
+    margin:0 auto;
+    color:white;
+    display: inline-block;
+}
+
+.info 
+
+.work {
+  
+}
+
+.music img {
+   width:100%;
+   padding-top: 42%;
+}
+/*Footer*/
+
+footer {
+    margin:100px;
+   
+}
+
+footer h2 {
+    margin:100px;
+     color:aquamarine
+}
